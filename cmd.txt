@@ -1,0 +1,24 @@
+
+
+
+Queries:
+
+ Consult the expert: "what is Object-A?" 
+ Consult the expert using a specified property: "is Object-A a bird?"
+ Query a fact, knowing the group: "is a dog a pet?"
+ Query a group: "show group pet."
+
+Build up the Knowledge:
+
+Add a rule: 
+- using facts to be asked or given (with "has"):
+ 	"if animal has scales and animal has cold-blood then animal is a reptile."
+- using existing rules (with "is a"):
+	"if animal is a reptile and animal has enormous-size 
+	and animal has hollywood-fame then animal is a godzilla."
+Add a fact: "hamster is a pet." or "add hamster to pet."
+Create a new group: "create group feline."
+
+Rules are stored in "knowledge/knowledge.pl", facts in individual files for each group in "knowledge/groups".
+
+
